@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Fabric (1.6.7)
+  - GoogleMaps (1.13.0)
+  - TwitterCore (2.1.1):
+    - Fabric
+  - TwitterKit (2.1.1):
+    - TwitterCore (= 2.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Fabric
+  - GoogleMaps
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  GoogleMaps: 7a6caeb8336d7cb42982e969fc9b1b20a889fe79
+  TwitterCore: abc46da2bc4b76e2c68a74cd8671a071a8e3abbf
+  TwitterKit: 38232c31f622db1f26a5952436eaa88d10763fd0
+
+COCOAPODS: 0.39.0
